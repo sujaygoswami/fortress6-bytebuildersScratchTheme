@@ -1,0 +1,65 @@
+@media screen and (min-width: $xl){
+
+    .bytebuilders{    
+        .site-nav, .service-nav{
+            &.d-xl-block{
+                display: inline-block !important;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: $lg){
+    .bytebuilders{
+        .main-nav{
+            text-align: right;
+
+            .mobile-nav-trigger{
+                margin-right: 0px;
+                cursor: pointer;
+                color: var(--site-primary-color);
+                font-size: 30px;
+
+                .dropdown-toggle::after{
+                    display: none;
+                }
+
+                .dropdown-toggle{
+                    &.show{
+                        &:before{
+                            content: "\f00d";
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: $md){
+
+    .bytebuilders{    
+        .client-speaks-module{
+            .client-says{
+                max-width: inherit;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: ($md - 1px)){
+
+    .bytebuilders{    
+        .mobile-no-bg{
+            background-color: transparent !important;
+        }
+
+        .mobile-border-right-bottom-type-1{
+            border-radius: 0 45px 45px 0;
+        }
+    }
+}
