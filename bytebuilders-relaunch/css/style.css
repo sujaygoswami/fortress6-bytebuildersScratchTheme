@@ -3,6 +3,8 @@
 @media screen and (max-width: 991px) {
   body .section {
     padding: 50px 0; }
+  body .responsive-row-gap-normal {
+    row-gap: 15px; }
   body #navbarmain {
     padding: 0px; }
   body .navbar {
@@ -39,7 +41,28 @@
       margin-bottom: 0px !important;
       margin-top: -5px; }
   body .clients-logo .slick-slide img {
-    display: inline-block; } }
+    display: inline-block; }
+  body .testimonial {
+    padding: 0px !important; }
+    body .testimonial .section-title {
+      margin-bottom: 0px; }
+    body .testimonial .slick-dots {
+      left: 0px;
+      text-align: center; }
+      body .testimonial .slick-dots li button:before {
+        opacity: 1;
+        color: white; }
+      body .testimonial .slick-dots li.slick-active button:before {
+        color: #fc5130; }
+    body .testimonial > span {
+      width: 100%; }
+      body .testimonial > span + .container {
+        padding: 15px;
+        background-color: rgba(0, 0, 0, 0.8);
+        position: relative;
+        color: white; }
+    body .testimonial .testimonial-block p {
+      background-color: transparent; } }
 
 /*
 Theme Name: Medic
