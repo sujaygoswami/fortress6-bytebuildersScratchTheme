@@ -4,6 +4,19 @@
 
 .features{
 	margin-top: -70px;
+
+	.feature-icon{
+		display: inline-block;
+		vertical-align: top;
+		margin-bottom: 0px !important;
+	  }
+
+	  .primary-info{
+		display: inline-block;
+		vertical-align: top;
+		max-width: 80%;
+		padding-left: 10px;
+	  }
 }
 .feature-item{
 	flex-basis: 33.33%;
