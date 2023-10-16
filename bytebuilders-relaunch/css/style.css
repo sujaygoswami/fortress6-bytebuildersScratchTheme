@@ -871,7 +871,10 @@ a:focus {
 .contact-block {
   text-align: center;
   border: 5px solid #EEF2F6;
-  padding: 50px 25px; }
+  padding: 50px 25px;
+  height: 100%; }
+  .contact-block:hover {
+    border-color: #fc5130; }
   .contact-block i {
     font-size: 50px;
     margin-bottom: 15px;

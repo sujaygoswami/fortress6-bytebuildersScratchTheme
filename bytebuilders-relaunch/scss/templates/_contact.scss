@@ -52,6 +52,10 @@
   text-align: center;
   border:5px solid #EEF2F6;
   padding:50px 25px;
+  height: 100%;
+  &:hover{
+    border-color: $secondary-color;
+  }
   i{
     font-size: 50px;
     margin-bottom: 15px;
