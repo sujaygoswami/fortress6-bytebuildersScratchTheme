@@ -82,6 +82,16 @@ input[type="email"],input[type="password"],input[type="text"],input[type="tel"]{
           transition: all .35s ease;
 
    &.btn-icon {
+    span{
+      display: inline-block;
+      vertical-align: middle;
+
+      & + i{
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 22px;
+      }
+    }
     i {
         border-left:1px solid rgba(255,255,255,.09);
         padding-left: 15px;    
@@ -380,5 +390,40 @@ a:focus {
 @include mobile-xs{
   .text-lg{
     font-size: 28px;
+  }
+}
+
+
+.table-chart{
+  border: none;
+  th, td{
+    border: none !important;
+  }
+  &.table-striped tbody tr:nth-of-type(odd){
+    background-color: rgba($color: #fc5130, $alpha: 0.2);
+  }
+  i{
+    &.icofont-ui-close{
+      color: red;
+      font-size: 12px;
+    }
+  }
+  i{
+    &.icofont-verification-check{
+      color: $primary-color;
+    }
+  }
+  thead{
+    th{
+      font-weight: normal;
+    }
+  }
+  tbody{
+    td{
+      font-weight: bold;
+      &:last-child{
+        background-color: rgba($color: #fc5130, $alpha: 0.2);
+      }
+    }
   }
 }
