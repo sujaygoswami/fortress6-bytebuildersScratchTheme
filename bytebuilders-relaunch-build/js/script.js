@@ -161,6 +161,32 @@
 // 
 jQuery(document).ready(function(){
 
+
+//Check Mobile Devices
+var checkMobile = function(){
+
+    //Check Device
+    var isTouch = ('ontouchstart' in document.documentElement);
+
+    //Check Device //All Touch Devices
+    if ( isTouch ) {
+
+        jQuery('body').addClass('touch');
+
+        
+
+    }
+    else {
+
+        jQuery('body').addClass('no-touch');
+
+    };
+
+};
+
+//Execute Check
+checkMobile();
+
 // set back
 
 jQuery('.set-back').each(function(){
@@ -171,5 +197,18 @@ jQuery('.set-back').each(function(){
    });
 
 
+// sub menu for touch
+jQuery('body.touch header .navbar-nav .dropdown').each(function(){
+	jQuery(this).find('.dropdown-toggle i').detach().appendTo(this);
 });
+jQuery('.dropdown i').click(function(){
+	jQuery(this).parent().find('.dropdown-menu').toggleClass('mobile-sub-open');
+	jQuery(this).toggleClass('open');
+});
+
+
+});
+
+
+
 // 

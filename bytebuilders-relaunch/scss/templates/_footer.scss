@@ -1,6 +1,13 @@
 .footer{
  padding-bottom: 10px;
 
+ a{
+  color: black;
+  &:hover{
+    color: $secondary-color;
+  }
+ }
+
   .copyright{
     a{
       font-weight: 600;
@@ -76,6 +83,7 @@
 
     &:hover{
       background: $primary-color;
+      color: white;
     }
   }
 }

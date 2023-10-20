@@ -294,7 +294,7 @@ input[type="email"],input[type="password"],input[type="text"],input[type="tel"]{
 
 /* Links */
 a {
-  color: $black;
+  color: $secondary-color;
   text-decoration: none;
   -webkit-transition: all .35s ease;
      -moz-transition: all .35s ease;
@@ -304,7 +304,7 @@ a {
 }
 
 a:focus, a:hover {
-  color: $secondary-color;
+  color: $primary-color;
   text-decoration: none;
 }
 
