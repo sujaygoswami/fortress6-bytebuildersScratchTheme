@@ -625,7 +625,7 @@ body.touch .dropdown .dropdown-menu {
     height: 55px;
     border-color: rgba(0, 0, 0, 0.05); }
   .appoinment-form textarea.form-control {
-    height: auto; }
+    height: 140px; }
 
 .client-thumb {
   text-align: center; }
