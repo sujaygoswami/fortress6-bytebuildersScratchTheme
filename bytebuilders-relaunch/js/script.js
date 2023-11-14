@@ -206,6 +206,10 @@ jQuery('.dropdown i').click(function(){
 	jQuery(this).toggleClass('open');
 });
 
+// default-button
+jQuery('.default-button').addClass('btn btn-main-2 btn-round-full');
+jQuery('.form-navigation .btn').addClass('btn btn-main-2 btn-round-full');
+
 
 });
 

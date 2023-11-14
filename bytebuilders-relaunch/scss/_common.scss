@@ -27,6 +27,30 @@ body{
       background-color: $secondary-color;
     }
   }
+  .text-red{
+
+  }
+  .contenttable{
+    width: 100%;
+    tr{
+      td, th{
+        border-top: none;
+        border-bottom: 1px solid #dee2e6;
+        padding: 6px 0;
+        border-color: rgba(0, 0, 0, 0.05);
+        span{
+          display: block;
+          font-size: 12px;
+        }
+        &:last-child{
+          text-align: right;
+        }
+        &:first-child{
+          text-align: left !important;
+        }
+      }
+    }
+  }
 } 
 
 // 
@@ -53,6 +77,14 @@ input[type="email"],input[type="password"],input[type="text"],input[type="tel"]{
     box-shadow:none;
     border:1px solid $primary-color;
   }
+}
+
+.form-control{
+  font-size: 14px;
+}
+
+.form-label{
+  display: none;
 }
 
 //

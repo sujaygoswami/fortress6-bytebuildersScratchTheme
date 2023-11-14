@@ -130,6 +130,21 @@ body .navbar-toggler {
   body .navbar-toggler.collapsed {
     background-color: #fc5130; }
 
+body .contenttable {
+  width: 100%; }
+  body .contenttable tr td, body .contenttable tr th {
+    border-top: none;
+    border-bottom: 1px solid #dee2e6;
+    padding: 6px 0;
+    border-color: rgba(0, 0, 0, 0.05); }
+    body .contenttable tr td span, body .contenttable tr th span {
+      display: block;
+      font-size: 12px; }
+    body .contenttable tr td:last-child, body .contenttable tr th:last-child {
+      text-align: right; }
+    body .contenttable tr td:first-child, body .contenttable tr th:first-child {
+      text-align: left !important; }
+
 .navbar-toggle .icon-bar {
   background: #1b7894; }
 
@@ -148,6 +163,12 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
   .form-control:focus {
     box-shadow: none;
     border: 1px solid #1b7894; }
+
+.form-control {
+  font-size: 14px; }
+
+.form-label {
+  display: none; }
 
 .py-7 {
   padding: 7rem 0px; }
