@@ -10,6 +10,11 @@ body{
       display: none;
     }
   }
+
+  img{
+    max-width: 100%;
+    height: auto;
+  }
   
   .text-primary{
     color: $primary-color !important;

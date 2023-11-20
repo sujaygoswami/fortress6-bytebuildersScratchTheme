@@ -117,6 +117,10 @@ body .backtop:hover {
 body .set-back > img {
   display: none; }
 
+body img {
+  max-width: 100%;
+  height: auto; }
+
 body .text-primary {
   color: #1b7894 !important; }
 
@@ -629,6 +633,12 @@ body.touch .dropdown .dropdown-menu {
 
 .client-thumb {
   text-align: center; }
+
+.fetaure-page .ce-bodytext h4 {
+  color: #fc5130; }
+
+.fetaure-page .ce-textpic {
+  margin-bottom: 3rem; }
 
 .features {
   margin-top: -70px; }
