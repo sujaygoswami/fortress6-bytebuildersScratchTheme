@@ -211,7 +211,7 @@ jQuery('.default-button').addClass('btn btn-main-2 btn-round-full');
 jQuery('.form-navigation .btn').addClass('btn btn-main-2 btn-round-full');
 
 // appoinment form
-jQuery('.appoinment-wrap form').addClass('appoinment-form');
+jQuery('.frame-type-form_formframework').addClass('contact-form-wrap');
 
 
 });

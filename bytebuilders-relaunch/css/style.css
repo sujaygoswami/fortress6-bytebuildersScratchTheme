@@ -121,6 +121,14 @@ body img {
   max-width: 100%;
   height: auto; }
 
+body .contact-form-wrap .form-group textarea.form-control {
+  height: 140px; }
+
+body .contact-form-wrap.frame-layout-1 .form-navigation {
+  text-align: center; }
+  body .contact-form-wrap.frame-layout-1 .form-navigation > .btn-toolbar {
+    display: inline-block; }
+
 body .text-primary {
   color: #1b7894 !important; }
 
@@ -637,8 +645,8 @@ body.touch .dropdown .dropdown-menu {
 .fetaure-page .ce-bodytext h4 {
   color: #fc5130; }
 
-.fetaure-page .ce-textpic {
-  margin-bottom: 3rem; }
+.fetaure-page > .container > .row {
+  row-gap: 3rem; }
 
 .features {
   margin-top: -70px; }
@@ -869,10 +877,11 @@ body.touch .dropdown .dropdown-menu {
   .testimonial-block p {
     background: #fff;
     font-size: 18px; }
-  .testimonial-block .client-info {
+  .testimonial-block .client-info, .testimonial-block header {
     margin-bottom: 20px; }
-    .testimonial-block .client-info h4 {
-      margin-bottom: 0px; }
+    .testimonial-block .client-info h1, .testimonial-block .client-info h2, .testimonial-block .client-info h3, .testimonial-block .client-info h4, .testimonial-block .client-info h5, .testimonial-block .client-info h6, .testimonial-block header h1, .testimonial-block header h2, .testimonial-block header h3, .testimonial-block header h4, .testimonial-block header h5, .testimonial-block header h6 {
+      margin-bottom: 0px;
+      color: #fc5130; }
   .testimonial-block i {
     font-size: 60px;
     position: absolute;

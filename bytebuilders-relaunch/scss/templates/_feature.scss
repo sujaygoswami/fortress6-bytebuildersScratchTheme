@@ -9,8 +9,10 @@
 		}
 	}
 
-	.ce-textpic{
-		margin-bottom: 3rem;
+	& > .container{
+		& > .row{
+			row-gap: 3rem;
+		}
 	}
 }
 

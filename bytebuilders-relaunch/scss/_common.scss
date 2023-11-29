@@ -15,6 +15,27 @@ body{
     max-width: 100%;
     height: auto;
   }
+
+  .contact-form-wrap{
+    .form-group{
+        textarea.form-control{
+          height: 140px;
+        }
+    }
+
+    &.frame-layout-1{
+      .form-navigation{
+        text-align: center;
+
+        & > .btn-toolbar{
+          display: inline-block;
+        }
+      }
+    }
+    
+  }
+
+
   
   .text-primary{
     color: $primary-color !important;
