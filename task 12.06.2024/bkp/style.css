@@ -548,9 +548,6 @@ a:focus {
 .icofont-screwdriver:before {
   content: "\e9b3"; }
 
-.slick-slider.single-sliding-element .slick-dots {
-  display: none; }
-
 #navbarmain {
   padding: 20px 0px; }
   #navbarmain .nav-item:hover > a, #navbarmain .nav-item.active > a {

@@ -491,3 +491,12 @@ a:focus {
 .icofont-screwdriver:before {
   content: "\e9b3";
 }
+
+// slick single slider
+.slick-slider{
+  &.single-sliding-element{
+    .slick-dots{
+      display: none;
+    }
+  }
+}
