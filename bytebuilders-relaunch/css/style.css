@@ -222,6 +222,21 @@ h6, .h6 {
 p {
   line-height: 30px; }
 
+blockquote p:after, blockquote p:before {
+  font-family: IcoFont;
+  color: #fc5130;
+  font-size: 18px; }
+
+blockquote p:before {
+  content: "\efcd";
+  padding-right: 15px;
+  vertical-align: super; }
+
+blockquote p:after {
+  content: "\efce";
+  padding-left: 15px;
+  vertical-align: sub; }
+
 body .backtop:hover {
   background-color: #1b7894; }
 

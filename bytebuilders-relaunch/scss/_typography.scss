@@ -202,3 +202,27 @@ h6,.h6 {
 p{
   line-height: 30px;
 }
+
+
+blockquote{
+  p{
+    &:after, &:before{
+      font-family: IcoFont;
+      color: $secondary-color;
+      font-size: 18px;
+    }
+    &:before{
+      content: "\efcd";
+      padding-right: 15px;
+      vertical-align: super;
+    }
+    &:after{
+      content: "\efce";
+      padding-left: 15px;
+      vertical-align: sub;
+    }
+  }
+  
+
+  
+}
