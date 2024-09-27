@@ -1,5 +1,6 @@
 //
 body{
+  hyphens: auto;
   .backtop{
     &:hover{
       background-color: $primary-color;
@@ -487,6 +488,9 @@ a:focus {
 }
 
 
+
+
+
 // icon font
 .icofont-screwdriver:before {
   content: "\e9b3";
@@ -500,3 +504,32 @@ a:focus {
     }
   }
 }
+
+
+// form iframe ext
+
+
+  .booking-form-iframe{
+    height: 1760px;
+    overflow: hidden;
+    @media screen and (max-width: 1199px) {
+      height: 1950px;
+    }
+   }
+
+   .kontakt-page-booking-form-iframe{
+    height: 1970px;
+    overflow: hidden;
+    @media screen and (max-width: 1199px) {
+      height: 2410px;
+    }
+   }
+
+   
+
+
+
+
+
+
+
